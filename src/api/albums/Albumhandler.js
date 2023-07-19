@@ -1,5 +1,5 @@
 const autoBind = require("auto-bind");
-const MainValidator = require("../../validator/songs");
+const MainValidator = require("../../validator");
 class AlbumHandler {
   constructor(service) {
     this._service = service;

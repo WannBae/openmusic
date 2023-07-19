@@ -1,6 +1,6 @@
 const autoBind = require("auto-bind");
 const ClientError = require("../../exceptions/ClientError");
-const MainValidator = require("../../validator/songs");
+const MainValidator = require("../../validator");
 const NotFoundError = require("../../exceptions/NotFoundError");
 
 class SongsHandler {
